@@ -18,7 +18,7 @@ namespace ServicioClientesPedidos.Controllers
             try
             {
                  PedidosModule pedidosModule = new PedidosModule(cliente);
-
+                
                 var pedidosCliente = pedidosModule.getpedidos();
 
                 return Ok(pedidosCliente);

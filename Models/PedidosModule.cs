@@ -21,6 +21,8 @@ namespace ServicioClientesPedidos.Models
             List<DBCliente> dBClientes = new List<DBCliente>();
             DBModule dBModule = new DBModule(cliente);
 
+
+
             dBClientes = dBModule.setData();
             
             return dBClientes;
